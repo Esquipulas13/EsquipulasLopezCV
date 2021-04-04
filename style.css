@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img/fondo.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.box{
+    width: 90%;
+    background: rgba(102, 102, 102, 0.623);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box-img{
+    border-radius: 50%;
+}
+
+.box h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+
+}
+
+.box h2{
+    font-size: 120%;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;   
+}
+
+.box h3{
+    font-size: 80%;
+    font-weight: 100;
+    margin-bottom: 20px;   
+    text-align: center;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.box ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.box ul li{
+display: inline-block;
+    
+}
+
+.box ul li a{
+    color: white;
+    font-size: 60px;
+    padding: 10px 5px;
+    transition: all .5s ease-in-out;
+}
+
+.box ul li a:hover{
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+
+.nospace{
+    width: 90%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.one_third{
+    width: 25%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    image-resolution: 30%;
+}
+.nospace-img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.Portafolio{
+    width: 60%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.Portafolio-img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.Concursos{
+    width: 45%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    image-resolution: 10%;
+}
+
+.Competencias{
+    width: 40%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.Formacion{
+    width: 45%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.Formacion-img{
+    width: 60%;
+}
