@@ -10,6 +10,10 @@ body {
     font-family: 'Century Gothic', sans-serif;
 }
 
+h5{
+    margin-top: 4.5px;
+}
+
 .contenedor{
     width: 100%;
     margin: 0 auto;
@@ -91,6 +95,30 @@ display: inline-block;
     border-radius: 15px;
 }
 
+.nospace1{
+    width: 44%;
+    background: rgba(23, 39, 63, 0.699);
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+.nospace2{
+    width: 44%;
+    background: rgba(23, 39, 63, 0.699);
+    margin-left: 51%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.Aptitudes{
+    margin-top: -32.5%;
+}
+
 .one_third{
     width: 25%;
     background: rgba(23, 39, 63, 0.699);
@@ -125,6 +153,30 @@ display: inline-block;
 
 .Concursos{
     width: 45%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    image-resolution: 10%;
+}
+
+.Concursos2{
+    width: 60%;
+    background: rgba(23, 39, 63, 0.699);
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    image-resolution: 10%;
+}
+
+.Concursos3{
+    width: 90%;
     background: rgba(23, 39, 63, 0.699);
     margin: 0 auto;
     margin-top: 2%;
